@@ -1,0 +1,45 @@
+REPORTE DE RECURSOS - VPS OPTIMIZADO
+Proyecto: 4Geeks Academy - AI Engineering
+Objetivo: Preparacion para futuros despliegues
+Fecha UTC: Tue Oct 27 21:20:48 UTC 2026
+
+=== SISTEMA OPERATIVO ===
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+
+=== MEMORIA RAM - AFTER ===
+               total        used        free      shared  buff/cache   available
+Mem:           957Mi       128Mi       454Mi       3.0Mi       374Mi       686Mi
+Swap:             0B          0B          0B
+
+=== ALMACENAMIENTO - AFTER ===
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs            96M  980K   95M   1% /run
+/dev/vda1        25G  2.1G   22G   9% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/vda15      105M  6.1M   99M   6% /boot/efi
+tmpfs            96M  4.0K   96M   1% /run/user/0
+
+=== SERVICIOS OPTIMIZADOS ===
+Multipath service:
+inactive
+disabled
+Multipath socket:
+inactive
+disabled
+
+=== VERIFICACION SSH ===
+active
+
+=== DECISIONES DE SEGURIDAD ===
+- SSH y servicios de red conservados.
+- Snap conservado porque LXD esta instalado.
+- Actualizaciones automaticas conservadas.
+- Sin swap configurada; considerar antes de desplegar.
+
+=== CONCLUSION PARA EL CTO ===
+El VPS ha sido inventariado y optimizado.
+Los servicios Multipath innecesarios estan desactivados.
+SSH permanece activo.
+El servidor base esta preparado para planificar
+despliegues, sujetos a los requisitos de cada aplicacion.
